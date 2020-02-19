@@ -20,6 +20,9 @@ module.exports.session = {
   ***************************************************************************/
   secret: 'f948378edd7cc301df20bf9d0ff13d52',
 
+  adapter: 'connect-mongo',
+  url: 'mongodb://fullstackadmin:fullstackadmin111@ds113815.mlab.com:13815/heroku_tptj6j3h',
+  collection: 'sessions',
 
   /***************************************************************************
   *                                                                          *
